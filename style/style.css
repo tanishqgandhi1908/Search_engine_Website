@@ -1,0 +1,46 @@
+form{
+    margin: 20px;
+    padding: 20px;
+}
+@media (min-width: 600px) {
+    body {
+        background-color: black;
+    }
+}
+
+@media (max-width: 599px) {
+    body {
+        background-color: black;
+    }
+}
+img {
+    width: 60%;
+    
+}
+.image {
+    padding-top: 10%;
+    padding-left: 25%;
+}
+a:visited {
+    color: blue;
+}
+
+    
+input[type=text] {
+    width: 50%;
+    padding: 10px 20px 12px 50px;
+    border: 2px solid blue;
+    border-radius: 25px;
+    resize: vertical;
+    font-size: 16px;
+    margin-left: 22%;
+    background-image: url('data:image/png;base64,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');
+    background-position: 1%; 
+    background-repeat: no-repeat;
+    background-size: 4%;
+    
+}
+.design {
+    margin-top: 3%;
+    padding-left: 35%;
+}
